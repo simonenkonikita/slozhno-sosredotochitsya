@@ -1,0 +1,48 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+
+  /* Декор */
+  --decorated-zone-item: #FF0070;
+  --decorated-icon-visibility: block;
+
+  /* Шрифт */
+  --font-family: "IBM Plex mono", monospace;
+  --main-content-text-size: 18px;
+
+  /* Цвета */
+  --titles-color: #DB00FF;  
+  --main-content-titles-color: #FF0070;
+  --main-content-sub-titles-color: #000028;
+  --main-content-text-color: #F1B2CE;
+
+  /* Тени */
+  --titles-shadow-color: #FF0070;
+  --lint-shadow-color: #FF0070;
+
+  /* Фон */
+  --bg-color-all: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-text-color: #FF0070;
+
+  /* Шрифт */
+  --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  /* Кнопки и ссылки*/
+  --button-text-color: #FF0070;
+  --button-color-active: #FF0070;
+  --button-color-hover: rgba(255, 0, 112, 0.4);
+  --button-color-focus: #FF0070;
+  --link-color-hover:  #F1B2CE;
+  --link-color-focus:  #F1B2CE;
+} 
+

@@ -1,0 +1,87 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+   /* Декор */
+   --decorated-zone-item: #353430;
+   --decorated-icon-visibility: none;
+
+   /* Шрифт */
+   --font-family: "IBM Plex mono", monospace;
+   --main-content-text-size: 18px;
+ 
+   /* Цвета */
+   --titles-color: #FFC2E6;  
+   --main-content-titles-color: #353430 ;
+   --main-content-sub-titles-color: #353430;
+   --main-content-text-color: #353430;
+ 
+   /* Тени */
+   --titles-shadow-color: #FF0070;
+   --lint-shadow-color: #FF0070;
+ 
+   /* Фон */
+   --bg-color-all: #FF8DCB;
+   --bg-image: url(../images/cover-image-light.png);
+   --bg-text-color: #FF8DCB;
+ 
+   /* Шрифт */
+   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);        
+   --header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+ 
+   /* Кнопки и ссылки*/
+   --button-text-color: #353430;
+   --button-color-active: #353430;
+   --button-color-hover: rgba(53, 52, 48, 1);;
+   --button-color-focus: #353430;
+   --link-color-hover:  #353430;
+   --link-color-focus:  #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+        /* Дублируем переменные светлой темы */  
+           /* Декор */
+   --decorated-zone-item: #353430;
+   --decorated-icon-visibility: none;
+
+   /* Шрифт */
+   --font-family: "IBM Plex mono", monospace;
+   --main-content-text-size: 18px;
+ 
+   /* Цвета */
+   --titles-color: #FFC2E6;  
+   --main-content-titles-color: #353430 ;
+   --main-content-sub-titles-color: #353430;
+   --main-content-text-color: #353430;
+ 
+   /* Тени */
+   --titles-shadow-color: #FF0070;
+   --lint-shadow-color: #FF0070;
+ 
+   /* Фон */
+   --bg-color-all: #FF8DCB;
+   --bg-image: url(../images/cover-image-light.png);
+   --bg-text-color: #FF8DCB;
+ 
+   /* Шрифт */
+   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);        
+   --header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+ 
+   /* Кнопки и ссылки*/
+   --button-text-color: #353430;
+   --button-color-active: #353430;
+   --button-color-hover: rgba(53, 52, 48, 1);
+   --button-color-focus: #353430;
+   --link-color-hover:  #353430;
+   --link-color-focus:  #353430;  
+    }
+}
+
