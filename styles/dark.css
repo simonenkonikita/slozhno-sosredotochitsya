@@ -29,6 +29,7 @@
   --lint-shadow-color: #FF0070;
 
   /* Фон */
+  --bg-color-all: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-text-color: #FF0070;
 
