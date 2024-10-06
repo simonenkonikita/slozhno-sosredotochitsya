@@ -18,7 +18,7 @@
    --main-content-text-size: 18px;
  
    /* Цвета */
-   --titles-color: #FFC2E6;  
+   --titles-color: #FFC2E6;
    --main-content-titles-color: #353430 ;
    --main-content-sub-titles-color: #353430;
    --main-content-text-color: #353430;
@@ -33,13 +33,12 @@
    --bg-text-color: #FF8DCB;
  
    /* Шрифт */
-   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);        
-   --header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);--header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
  
    /* Кнопки и ссылки*/
    --button-text-color: #353430;
    --button-color-active: #353430;
-   --button-color-hover: rgba(53, 52, 48, 1);;
+   --button-color-hover: rgba(53, 52, 48, 1);
    --button-color-focus: #353430;
    --link-color-hover:  #353430;
    --link-color-focus:  #353430;
@@ -58,7 +57,7 @@
  
    /* Цвета */
    --titles-color: #FFC2E6;  
-   --main-content-titles-color: #353430 ;
+   --main-content-titles-color: #353430;
    --main-content-sub-titles-color: #353430;
    --main-content-text-color: #353430;
  
@@ -72,7 +71,7 @@
    --bg-text-color: #FF8DCB;
  
    /* Шрифт */
-   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);        
+   --header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
    --header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
  
    /* Кнопки и ссылки*/
@@ -81,7 +80,7 @@
    --button-color-hover: rgba(53, 52, 48, 1);
    --button-color-focus: #353430;
    --link-color-hover:  #353430;
-   --link-color-focus:  #353430;  
-    }
+   --link-color-focus:  #353430;
+  }
 }
 
