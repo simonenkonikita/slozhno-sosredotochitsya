@@ -246,13 +246,13 @@
 }
 
 @media (768px <= width < 1024px) {
-  .section-how-list  {
+  .section-how-list {
     grid-template-columns: max(472px, 100%);
   }
 }
 
-@media (375px <= width < 768px) , (width < 375px)  {
-  .section-how-list  {
+@media (375px <= width < 768px) , (width < 375px) {
+  .section-how-list {
     grid-template-columns: max(355px, 100%);
     grid-column: 1;
   }
@@ -492,7 +492,6 @@
 @media (375px <= width < 768px) , (width < 375px) {
   .footer__title {
     grid-column: 1/4;
-    font-size: var(--header-mobile);
     font-size: var(--header-mobile);
   }
 }
