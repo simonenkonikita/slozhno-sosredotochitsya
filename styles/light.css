@@ -39,7 +39,7 @@
    /* Кнопки и ссылки*/
    --button-text-color: #353430;
    --button-color-active: #353430;
-   --button-color-hover: rgba(53, 52, 48, 1);
+   --button-color-hover: rgba(53, 52, 48, 0.4);
    --button-color-focus: #353430;
    --link-color-hover:  #353430;
    --link-color-focus:  #353430;
@@ -65,7 +65,7 @@
  
    /* Тени */
    --titles-shadow-color: #FF0070;
-   --lint-shadow-color: #FF0070;
+   --lint-shadow-color: #FF8DCB;
  
    /* Фон */
    --bg-color-all: #FFF1F7;
@@ -79,7 +79,7 @@
    /* Кнопки и ссылки*/
    --button-text-color: #353430;
    --button-color-active: #353430;
-   --button-color-hover: rgba(53, 52, 48, 1);
+   --button-color-hover: rgba(53, 52, 48,0.4);
    --button-color-focus: #353430;
    --link-color-hover:  #353430;
    --link-color-focus:  #353430;
